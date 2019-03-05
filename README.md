@@ -16,3 +16,15 @@
   [...new Set(arr)]
 ```
 
+- 遍历数组，建立新数组，利用indexOf判断是否存在于新数组中
+```
+  function unique(arr) {
+    let newArr = []
+    for (let i in arr) {
+      if (newArr.indexOf(arr[i]) === -1) {
+        newArr.push(arr[i])
+      }
+    }
+    return newArr
+  }
+```
