@@ -1,10 +1,17 @@
 # JavaScript
 
-# 闭包
+## 深浅拷贝
+
+快速实现深拷贝的方法，有局限性
+``` JavaScript
+  JSON.parse(JSON.stringify(object))
+```
+
+## 闭包
 
 参考：
 - [JS | InterviewMap | 闭包](https://github.com/InterviewMap/CS-Interview-Knowledge-Map/blob/master/JS/JS-ch.md#%E9%97%AD%E5%8C%85)
-- [闭包 - JavaScript | MDN](https://github.com/InterviewMap/CS-Interview-Knowledge-Map/blob/master/JS/JS-ch.md#%E9%97%AD%E5%8C%85)
+- [闭包 - JavaScript | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures)
 
 # 算法
 
