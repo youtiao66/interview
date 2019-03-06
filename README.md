@@ -1,3 +1,11 @@
+# JavaScript
+
+# 闭包
+
+参考：
+- [JS | InterviewMap | 闭包](https://github.com/InterviewMap/CS-Interview-Knowledge-Map/blob/master/JS/JS-ch.md#%E9%97%AD%E5%8C%85)
+- [闭包 - JavaScript | MDN](https://github.com/InterviewMap/CS-Interview-Knowledge-Map/blob/master/JS/JS-ch.md#%E9%97%AD%E5%8C%85)
+
 # 算法
 
 ## 冒泡排序
