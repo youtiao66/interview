@@ -17,9 +17,59 @@ JSON.parse(JSON.stringify(object))
 
 ## 冒泡排序
 
-## 选择排序
+``` js
+function sort(arr) {
+  let len = arr.length
+  for (let i = len - 1; i > 0; i--) {
+    for (let j = 0; j < i; j++) {
+      if (arr[j] > arr[j + 1]) {
+        let tmp = arr[j]
+        arr[j] = arr[j + 1]
+        arr[j + 1] = tmp
+      }
+    }
+  }
+  return arr
+}
+```
 
 ## 插入排序
+
+``` js
+function sort(arr) {
+  let len = arr.length
+  for (let i = 1; i < len; i++) {
+    for (let j = i - 1; j >= 0; j--) {
+      if (arr[j] > arr[j + 1]) {
+        let tmp = arr[j]
+        arr[j] = arr[j + 1]
+        arr[j + 1] = tmp
+      }
+    }
+  }
+  return arr
+}
+```
+
+## 选择排序
+
+``` js
+function sort(arr) {
+  let len = arr.length
+  for (let i = 0; i < len - 1; i++) {
+    let minIndex = i
+    for (let j = i + 1; j < len; j++) {
+      if (arr[minIndex] > arr[j]) {
+        minIndex = j
+      }
+    }
+    let tmp = arr[i]
+    arr[i] = arr[minIndex]
+    arr[minIndex] = tmp
+  }
+  return arr
+}
+```
 
 ## 数组去重
 
