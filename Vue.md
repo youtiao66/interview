@@ -1,3 +1,8 @@
+# Vue
+
+## 生命周期图示
+![生命周期图示](https://cn.vuejs.org/images/lifecycle.png)
+
 # Vuex
 Vuex 是一个专为 Vue.js 应用程序开发的**状态管理模式**。
 
