@@ -3,6 +3,13 @@
 ## git log
 **以图表和单行的形式展示所有提交日志** `git log --graph --oneline --all`
 
+## git rebase
+### 合并多个commit为一个完整commit
+`git rebase -i  [startpoint]  [endpoint]`
+
+- `-i`即`--interactive`，即弹出交互式的界面让用户编辑完成合并操作
+- `[startpoint] [endpoint]`则指定了一个编辑区间，如果不指定`[endpoint]`，则该区间的终点默认是当前分支`HEAD`所指向的commit（注：该区间指定的是一个前开后闭的区间）
+
 ## git update-index
 **假定指定的文件为未更改的状态** `git update-index [--[no-]assume-unchanged] [--] [<file>...]`
 
