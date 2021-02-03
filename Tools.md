@@ -10,6 +10,9 @@
 - `-i`即`--interactive`，即弹出交互式的界面让用户编辑完成合并操作
 - `[startpoint] [endpoint]`则指定了一个编辑区间，如果不指定`[endpoint]`，则该区间的终点默认是当前分支`HEAD`所指向的commit（注：该区间指定的是一个前开后闭的区间）
 
+#### 将某一部分 commit 复制到另一个分支
+`git rebase [startpoint] [endpoint] --onto [branchName]`
+
 ### git update-index
 **假定指定的文件为未更改的状态** `git update-index [--[no-]assume-unchanged] [--] [<file>...]`
 
