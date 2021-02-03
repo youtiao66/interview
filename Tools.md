@@ -3,6 +3,13 @@
 ### git log
 **以图表和单行的形式展示所有提交日志** `git log --graph --oneline --all`
 
+### git reset
+#### 将 指定分支`[branchName]` 所指向的 commit id 设置为当前 HEAD 所指向的 commit id
+```
+git checkout [branchName]
+git reset --hard [<commit>]
+```
+
 ### git rebase
 #### 合并多个commit为一个完整commit
 `git rebase -i  [startpoint]  [endpoint]`
