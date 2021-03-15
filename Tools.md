@@ -35,3 +35,7 @@ git reset --hard [<commit>]
 
 ## VIM
 **全局替换** `%s/[old]/[new]/g`
+
+## pandoc
+### 将`markdown`转换成`docx`
+`pandoc -f markdown -t docx ./test.md -o test.docx`
