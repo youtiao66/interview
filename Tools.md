@@ -39,3 +39,11 @@ git reset --hard [<commit>]
 ## pandoc
 ### 将`markdown`转换成`docx`
 `pandoc -f markdown -t docx ./test.md -o test.docx`
+
+## Chrome
+### Chrome Cookies
+```
+  chrome://flags/
+  => SameSite by default cookies
+  => Cookies without SameSite must be secure
+```
