@@ -2,6 +2,7 @@
 
 ## 微信小程序
 - [npm 支持](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)
+- [自定义分析](https://developers.weixin.qq.com/miniprogram/analysis/custom/)
 
 ## Git
 - [Git使用教程：最详细、最傻瓜、最浅显、真正手把手教！](https://mp.weixin.qq.com/s/iYgV9CkFEvS9Wyu19K74fw)
