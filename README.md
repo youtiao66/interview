@@ -1,5 +1,3 @@
-# bookmark
-
 ## 微信小程序
 - [behaviors](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/behaviors.html)
 - [npm 支持](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)
