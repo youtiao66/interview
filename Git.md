@@ -6,6 +6,7 @@
 | `stage/index` | 暂存区 |
 | `origin` | 远程、源 |
 | `tag` | 标签 |
+| `mainline` | 主线 |
 
 ## git-tag
 > Create, list, delete or verify a tag object signed with GPG
@@ -39,21 +40,23 @@
 
 
 ## git-revert
-
 > Revert some existing commits
 
 撤销已经存在的提交
 
 **通过创建新的提交，去撤销已经存在的提交**
 
-### `git revert [commit]`
-
-撤销一个已经存在的提交
+| 命令 | 描述 |
+| --- | --- |
+| `git revert [commit]` | 撤销一个已经存在的提交 |
+| `-n, --no-commit` | 不创建新的提交，直接把撤销后的代码添加到工作区和暂存区 |
 
 ### `git revert [start-commit]..[end-commit]`
 
 撤销指定区间的提交，**前开后闭，不包括`[start-commit]`，包括`[end-commit]`**
 
-### -n, --no-commit
+### `git revert -m 1 [merge-commit]`
 
-不创建新的提交，直接把撤销后的代码添加到工作区和暂存区
+`--mainline parent-number`
+
+通过指定主线撤销合并，`parent-number` 以 `1` 开始，通过`git show [merge-commit]`查看
