@@ -47,3 +47,12 @@ git reset --hard [<commit>]
   => SameSite by default cookies
   => Cookies without SameSite must be secure
 ```
+
+### ServiceWorker
+如何停用 Service Worker 缓存
+
+```
+  chrome://serviceworker-internals/
+  => Open DevTools window and pause JavaScript execution on Service Worker startup for debugging.
+  => 选择需要取消缓存对应的网址，点击 unregister 取消缓存
+```
