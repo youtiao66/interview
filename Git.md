@@ -8,6 +8,15 @@
 | `tag` | 标签 |
 | `mainline` | 主线 |
 
+## git-commit
+> Record changes to the repository
+
+向仓库提交改动
+
+| 命令 | 描述 |
+| --- | --- |
+| `-n, --no-verify` | 该选项可以避免执行 `pre-commit` 和 `commit-msg` 钩子 |
+
 ## git-tag
 > Create, list, delete or verify a tag object signed with GPG
 
