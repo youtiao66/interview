@@ -1,2 +1,5 @@
+baseurl: https://youtiao66.gitee.io/notes/
+
+# markdown
 kramdown:
   input: GFM
