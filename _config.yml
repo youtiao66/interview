@@ -1,4 +1,4 @@
-baseurl: https://youtiao66.gitee.io/notes/
+baseurl: notes/
 
 # markdown
 kramdown:
