@@ -1,5 +1,7 @@
 baseurl: notes/
 
+theme: minimal-mistakes-jekyll
+
 # markdown
 kramdown:
   input: GFM
